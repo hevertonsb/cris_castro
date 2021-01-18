@@ -1,0 +1,25 @@
+.footer{
+    background-color: $color-gray;
+    color:$color-white;
+    text-align: center;
+    padding: 2rem;
+    border-top:4px solid $color-white;
+    img{
+        margin-bottom: 3rem;
+    }
+    p{
+        margin:.5rem 0;
+        font-size: 1.6rem;
+    }
+    .copyright{
+        font-size: 1.2rem;
+        margin-top: 3rem;
+    }
+    a{
+        color:$color-white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
