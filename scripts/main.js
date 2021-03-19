@@ -14,7 +14,7 @@
     }
 
     function closeMenuMobile(){
-        mainMenu.style.top = '-100%';
+        mainMenu.style.top = '-200%';
     }
 
     var mySwiper = new Swiper('.swiper-container', {
